@@ -42,7 +42,7 @@
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
 
 ## code
-
+```
 import random
 class MedicinePrescribingAgent:
     def __init__(self):
@@ -83,7 +83,7 @@ class MedicinePrescribingAgent:
         print("\nFinal Performance:", self.performance)
 agent = MedicinePrescribingAgent()
 agent.run()
-
+```
 ## output 
 <img width="635" height="340" alt="image" src="https://github.com/user-attachments/assets/29637af4-8589-44f9-b95b-2a19ddcfd1e0" />
 
